@@ -1,0 +1,116 @@
+﻿<Page
+    x:Class="photo221220200302pm.FaqPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:photo221220200302pm"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <ScrollViewer HorizontalScrollMode="Enabled" HorizontalScrollBarVisibility="Visible">
+        <StackPanel>
+            <HyperlinkButton FontSize="20" 
+                         Margin="75,30,0,0" 
+                         VerticalAlignment="Top" 
+                         Content="Click here to go back to Main Page" 
+                         Click="HyperlinkButton_Click" />
+
+            <TextBlock x:Name="pageTitle" FontSize="17" Margin="75,-5,0,0">
+            
+                <LineBreak/>
+                <Bold>Frequently Asked Questions (FAQ)</Bold>
+                <LineBreak/> 
+                <LineBreak/>
+                
+                <Bold>What is TakeAPic app? </Bold> <LineBreak/>
+                TakeAPic app allows you to take a photo of yourself, objects, or documents using your <LineBreak/> 
+                desktop/laptop’s default webcam.
+                <LineBreak/> 
+                <LineBreak/>
+                
+                <Bold> What’s the default photo format?</Bold> <LineBreak/>
+                The default photo format is JPG. 
+                <LineBreak/> 
+                <LineBreak/>
+            
+                <Bold>What is the default photo quality (dimension and resolution)? </Bold> <LineBreak/>
+                The default photo quality (dimension and resolution) is the highest possible quality that your <LineBreak/>
+                webcam is capable of. For instance, if the highest possible quality that your webcam is capable <LineBreak/>
+                of, in terms of dimension is 1280 pixels width and 720 pixels height; and in terms of resolution, <LineBreak/>
+                96 dpi horizontal and 96 dpi vertical, then these default specifications are the basis of your <LineBreak/>
+                photo quality.
+                <LineBreak/>
+                <LineBreak/>
+                
+                <Bold>How to take a photo? </Bold> <LineBreak/>
+                To take a photo, simply click on the “Take a Photo” button. In taking a photo of a document be <LineBreak/> 
+                sure to hold it still as any movement will affect the quality of the photo.
+                <LineBreak/>
+                <LineBreak/>
+                
+                <Bold>Where's my photo saved? </Bold> <LineBreak/>
+                Your photo is saved inside the "Pictures" folder. You can find the Pictures folder under "File <LineBreak/>
+                Explorer". Go to "This PC" and locate the "Pictures" folder.
+                <LineBreak/>
+                <LineBreak/>
+            
+                <Bold>How to take another photo?</Bold><LineBreak/>
+                To take another photo, click on the “Close” button of the pop-up message box and click on the <LineBreak/>
+                “Take a Photo” button again.
+                <LineBreak/>
+                <LineBreak/>
+            
+                <Bold>What's the effect of clicking the “Refresh” button?</Bold> <LineBreak/>
+                Clicking the Refresh button restarts the app.  
+                <LineBreak/>
+                <LineBreak/>
+                
+                <Bold>Can I resize this app?</Bold> <LineBreak/>
+                Yes, you can. Click on the resize icon located on top of the app<LineBreak/> 
+                screen (right side when you're facing the computer).
+                <LineBreak/>
+                <LineBreak/>
+            
+                <Bold>What are the known issues? </Bold> <LineBreak/>
+                One of the causes of failure to initialize this app is that the computer's camera and microphone <LineBreak/>
+                are disabled. Disabling the camera and microphone also disables the “Take a Photo” function of <LineBreak/>
+                this app. 
+                <LineBreak/>
+                <LineBreak/>
+                While the microphone isn’t essentially needed for this app, the microphone is integrated for the <LineBreak/>
+                camera to operate. Please enable the computer's camera and microphone when using this app. <LineBreak/>
+                To enable the camera and microphone, go to Windows "Settings", click on the "Privacy" button and <LineBreak/> 
+                give "Camera" and "Microphone" app permissions.
+                <LineBreak/>
+                <LineBreak/>
+                Another known issue is double-clicking the Take a Photo button. Don't double click the<LineBreak/> 
+                Take a Photo button. Give the camera one second to prepare to take another photo.
+                <LineBreak/>
+                <LineBreak/>
+                
+                <Bold>What's the general advice when something goes wrong?</Bold> <LineBreak/>                
+                Enabling the camera and microphone and clicking the "Refresh" button solve known issues.
+                <LineBreak/>
+                <LineBreak/>
+                
+                <Bold>Does this app access, collect, or transmit personal information <LineBreak/> 
+                (data that could be used to identify a person)?</Bold> <LineBreak/>
+                This app respects your privacy. It doesn’t access, collect, or <LineBreak/> 
+                transmit personal information (data that could be used to identify a person).
+                <LineBreak/>
+                <LineBreak/>
+            
+                <Bold>How can I contact the developer if I have questions not answered here?</Bold> <LineBreak/>
+                Email me at support@ellenrapps.com
+                <LineBreak/>
+                <LineBreak/>
+
+            </TextBlock>
+
+        </StackPanel>
+
+    </ScrollViewer>
+
+</Page>
+

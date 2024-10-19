@@ -1,0 +1,7 @@
+﻿<Application
+    x:Class="photo221220200302pm.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:photo221220200302pm">
+
+</Application>
